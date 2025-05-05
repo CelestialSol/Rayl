@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #242526;
+    padding: 15px 40px;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar nav a:hover {
+    color: #00A8E8;
+}
+
+.navbar .logout {
+    background: #ff4757;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.navbar .logout:hover {
+    background: #d32f2f;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.user-table {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead {
+    background: #242526;
+    color: white;
+}
+
+table th, table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background: #f1f1f1;
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn.edit {
+    background: #00A8E8;
+    color: white;
+}
+
+.btn.edit:hover {
+    background: #0077B6;
+}
+
+.btn.delete {
+    background: #ff4757;
+    color: white;
+}
+
+.btn.delete:hover {
+    background: #d32f2f;
+}
