@@ -1,50 +1,23 @@
 body {
-    font-family: "Arial", sans-serif;
-    background: linear-gradient(to right, #a18cd1, #fbc2eb);
-    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #2971d6, #9d12f3);
+    color: white;
+    text-align: center;
     margin: 0;
     padding: 0;
 }
 
-.navbar {
-    background-color: rgba(10, 10, 20, 0.8) !important; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.navbar .navbar-nav a {
-    color: white !important;
-    font-weight: bold;
-}
-
-.navbar .navbar-nav a:hover {
-    color: #fbc2eb !important;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-}
-
-.welcome-box {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 40px;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    color: white;
+.welcome-video {
+    display: block;
+    margin: 0 auto; /* Centers horizontally */
+    width: 100%;
     max-width: 500px;
+    border-radius: 10px;
 }
 
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .welcome-box {
-        width: 80%;
-    }
+.welcome-section {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full screen height */
 }

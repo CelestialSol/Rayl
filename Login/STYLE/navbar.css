@@ -5,17 +5,22 @@
   }
 
   .navbar {
-    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 120%;
+    z-index: 1000;
     background: #2c253d;
-    padding: 10px 20px;
   }
 
   .navbar-wrapper {
+    width: 100%; /* Ensures full stretch */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-  }
+    padding: 0 15px;
+}
+
 
   .navbar-left,
   .navbar-center,
